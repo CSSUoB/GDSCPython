@@ -1,9 +1,9 @@
-people = {
+person = {
 	"name" : "Bob",
 	"phoneNumber" : "12345-123456"
 }
-person = input("I want to contact: ")
-if people["name"] == person:
-	print(people.get("phoneNumber"))
+targetPerson = input("I want to contact: ")
+if person["name"] == targetPerson:
+	print(person.get("phoneNumber"))
 else:
 	print("No contact info")
